@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .calculator {
+            margin-top: 150px;
+            background-color: #000; /* لون الخلفية الأسود */
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .calculator h2 {
+            margin-bottom: 20px;
+            color: #fff; /* لون النص الأبيض */
+            margin-top: 10px; /* تنزيل الآلة الحاسبة بوحدة قياس نسبية */
+        }
+        .form-control {
+            font-size: 20px;
+            text-align: right;
+        }
+        .btn {
+            font-size: 20px;
+            margin: 5px;
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 calculator">
+                <h2><i class="fas fa-calculator"></i> Simple Calculator</h2>
+                <input type="text" class="form-control mb-2" name="expression" id="expression" value="" readonly>
+                <div class="row">
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('7')">7</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('8')">8</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('9')">9</button></div>
+                    <div class="col-md-3"><button class="btn btn-warning" onclick="appendToExpression('/')">/</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('4')">4</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('5')">5</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('6')">6</button></div>
+                    <div class="col-md-3"><button class="btn btn-warning" onclick="appendToExpression('*')">*</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('1')">1</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('2')">2</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('3')">3</button></div>
+                    <div class="col-md-3"><button class="btn btn-warning" onclick="appendToExpression('-')">-</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('0')">0</button></div>
+                    <div class="col-md-3"><button class="btn btn-secondary" onclick="appendToExpression('.')">.</button></div>
+                    <div class="col-md-3"><button class="btn btn-success" onclick="calculateResult()">=</button></div>
+                    <div class="col-md-3"><button class="btn btn-warning" onclick="appendToExpression('+')">+</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-danger" onclick="clearExpression()"> Clear </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function appendToExpression(value) {
+            document.getElementById('expression').value += value;
+        }
+
+        function calculateResult() {
+            var expression = document.getElementById('expression').value;
+            var result = eval(expression);
+            document.getElementById('expression').value = result;
+        }
+
+        function clearExpression() {
+            document.getElementById('expression').value = '';
+        }
+    </script>
+</body>
+</html>
