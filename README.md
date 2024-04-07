@@ -25,12 +25,31 @@ This is a simple calculator web application built using Flask and HTML/CSS. It a
 
 ## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- 1-Addition
+. the calculator allows you to add two numbers together.
+. Example: 2 + 2 = 4
 
-## File Structure
+- 2-Subtraction
+. you can subtract one number from another.
+. Example: 2 - 4 = 2
+
+- 3-Multiplication
+. multiply two numbers to find their product.
+. Example: 2 x 2 = 4
+
+- 4-Division
+. divide one number by another (watch out for division by zero!)
+. Example: 15 / 3 = 5
+
+## select operation:
+. choose the desired operation
+
+ + for addition
+ - for subtraction
+ * for multiplication
+ / for divison
+
+ . then the result will be displayed
 
 - `app.py`: Main Flask application file.
 - `templates/calculator.html`: HTML template for the calculator interface.
