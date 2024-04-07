@@ -37,6 +37,16 @@ it provides:
 . divide one number by another (watch out for division by zero!)
 . Example: 15 / 3 = 5
 
+## Calculator App
+
+This is a simple calculator web application.
+
+### Usage
+
+- Enter numbers and perform calculations using the provided buttons.
+- If you entered the number in the wrong label or you want to do a new calculation, you can click on the "Reset" button.
+- ...
+
 ## select operation:
 . choose the desired operation
 
