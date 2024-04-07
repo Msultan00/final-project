@@ -1,12 +1,11 @@
-Simple Calculator->
+# simple calculator PROJECT
+#### Video Demo:
 
-Video Demo:
-
-Description:
+ ## Description:
 
 The Simple Calculator Project is a fundamental tool designed to perform basic arithmetic operations. Its purpose is straightforward to hately calculate sums, differences, products, quotients, and even find the remainder after division. Whether udent, a professional, or simply curious about numbers, this calculator serves as a reliable companion.
 
-it provides:
+## it provides:
 
 .Ease of Use: The minimalist design ensures that anyone can operate the calculator effortlessly, No unnecessary buttons or confusing features, just straightforward functionality
 
