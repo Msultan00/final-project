@@ -40,10 +40,10 @@ it provides:
 ## select operation:
 . choose the desired operation
 
- + for addition
- - for subtraction
- * for multiplication
- / for divison
+ - . + for addition
+ - . - for subtraction
+ - . * for multiplication
+ - . / for divison
 
  . then the result will be displayed
 
