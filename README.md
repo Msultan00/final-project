@@ -1,27 +1,23 @@
 # YOUR PROJECT TITLE
 #### Video Demo:  <URL HERE>
-#### Description:
-TODO
 
-# Calculator App
+Video Demo:
 
-This is a simple calculator web application built using Flask and HTML/CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+Description:
 
-## Installation
+The Simple Calculator Project is a fundamental tool designed to perform basic arithmetic operations. Its purpose is straightforward to hately calculate sums, differences, products, quotients, and even find the remainder after division. Whether udent, a professional, or simply curious about numbers, this calculator serves as a reliable companion.
 
-1. Clone the repository:
+it provides:
 
-2. Navigate to the project directory:
+.Ease of Use: The minimalist design ensures that anyone can operate the calculator effortlessly, No unnecessary buttons or confusing features, just straightforward functionality
 
-3. Install the required dependencies:
 
-## Usage
+.Quick Calculations: Need to split a restaurant bill among friends? Calculate the tip for excellent service? Estimate travel expenses? The Simple Calculator handles it all swiftly.
 
-1. Run the Flask application:
 
-2. Open a web browser and navigate to [http://localhost:5000](http://localhost:5000) to access the calculator app.
+.Educational Value: Students can practice math problems, teachers can demonstrate concepts in class, and curious minds can explore numerical relationships.
 
-3. Use the calculator interface to perform arithmetic operations.
+
 
 ## Features
 
@@ -51,21 +47,5 @@ This is a simple calculator web application built using Flask and HTML/CSS. It a
 
  . then the result will be displayed
 
-- `app.py`: Main Flask application file.
-- `templates/calculator.html`: HTML template for the calculator interface.
-- `templates/login.html`: HTML template for the login page.
-- `templates/profile.html`: HTML template for the user profile page.
-- `requirements.txt`: List of required Python packages.
-
-## Contributors
-
-- [Your Name](https://github.com/Msultan00)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-
-
-
+~note:
+.if you entered the number you want in the wrong label or you want to do a new calculation you can click on the reset button
