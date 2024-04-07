@@ -1,5 +1,3 @@
-# YOUR PROJECT TITLE
-#### Video Demo:  <URL HERE>
 
 Video Demo:
 
@@ -45,7 +43,6 @@ This is a simple calculator web application.
 
 - Enter numbers and perform calculations using the provided buttons.
 - If you entered the number in the wrong label or you want to do a new calculation, you can click on the "Reset" button.
-- ...
 
 ## select operation:
 . choose the desired operation
